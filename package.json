@@ -10,7 +10,8 @@
     "format": "npx prettier --write .",
     "test": "jest --runInBand",
     "test:watch": "jest --watch --runInBand",
-    "test:cov": "jest --coverage --runInBand"
+    "test:cov": "jest --coverage --runInBand",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "14.2.13",
@@ -33,6 +34,7 @@
     "prettier-plugin-tailwindcss": "^0.6.8",
     "tailwindcss": "^3.4.1",
     "ts-jest": "^29.2.5",
-    "typescript": "^5"
+    "typescript": "^5",
+    "husky": "^8.0.0"
   }
 }
